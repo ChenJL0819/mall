@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include 
+        android:id="@+id/myActionBar"
+        layout="@layout/include_my_actionbar"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pullToRefreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_below="@id/myActionBar">
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout>

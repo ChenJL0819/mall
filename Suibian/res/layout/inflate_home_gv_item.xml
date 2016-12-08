@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.oiios.suibian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.oiios.suibian.view.CircleImageView
+        android:id="@+id/ivUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        app:border_color="@color/mainColor"
+        app:border_width="2dp">
+    </com.oiios.suibian.view.CircleImageView>
+
+</RelativeLayout>

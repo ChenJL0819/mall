@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   <ImageView 
+       android:id="@+id/ivPhoto"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/ic_launcher"
+       android:layout_margin="8dp"/>
+
+   <TextView 
+       android:id="@+id/tvDescribe"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:maxLines="2"
+       android:text="会计师费卡拉双方的拉丁方决定了是否"
+       android:layout_toEndOf="@id/ivPhoto"
+       android:layout_marginTop="10dp"/>
+   
+   <TextView 
+       android:id="@+id/tvPrice"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignStart="@id/tvDescribe"
+       android:layout_below="@id/tvDescribe"
+       android:text="15.0元"/>
+   
+   <TextView 
+       android:id="@+id/tvSellCount"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignStart="@id/tvPrice"
+       android:layout_below="@id/tvPrice"
+       android:text="1.8万人付款"
+       android:textSize="12sp"
+       android:textColor="#ffa1a1a1"/>
+   
+   <TextView 
+       android:id="@+id/tvAddress"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toEndOf="@id/tvSellCount"
+       android:layout_marginStart="8dp"
+       android:layout_alignTop="@id/tvSellCount"
+       android:text="广州"
+       android:textSize="12sp"
+       android:textColor="#ffa1a1a1"/>
+</RelativeLayout>

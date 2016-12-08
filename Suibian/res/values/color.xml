@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainColor">#EB4F38</color>
+    <color name="shopCarGroup">#885500</color>
+    <color name="category">#335C37</color>
+    <color name="hongse">#F84E4E</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#666666</color>
+    <color name="feiheise">#685E55</color>
+    <color name="bg_Gray">#CCCCCC</color>
+    <color name="danheise">#685E55</color>
+    <color name="danhuise">#968F87</color>
+    <color name="shangpingjieshao">#968F87</color>
+</resources>
